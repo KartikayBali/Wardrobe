@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290E13181BC84C5E007E5850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E13171BC84C5E007E5850 /* AppDelegate.swift */; };
+		290E131B1BC84C5E007E5850 /* SuperWardrobe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 290E13191BC84C5E007E5850 /* SuperWardrobe.xcdatamodeld */; };
+		290E131D1BC84C5E007E5850 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E131C1BC84C5E007E5850 /* ViewController.swift */; };
+		290E13201BC84C5E007E5850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290E131E1BC84C5E007E5850 /* Main.storyboard */; };
+		290E13221BC84C5E007E5850 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290E13211BC84C5E007E5850 /* Images.xcassets */; };
+		290E13251BC84C5E007E5850 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290E13231BC84C5E007E5850 /* LaunchScreen.xib */; };
+		290E13311BC84C5E007E5850 /* SuperWardrobeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E13301BC84C5E007E5850 /* SuperWardrobeTests.swift */; };
+		290E133C1BC84D63007E5850 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E133B1BC84D63007E5850 /* HomeViewController.swift */; };
+		290E133E1BC8523F007E5850 /* LowerWear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E133D1BC8523F007E5850 /* LowerWear.swift */; };
+		290E13401BC85240007E5850 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E133F1BC85240007E5850 /* Bookmark.swift */; };
+		290E13421BC85240007E5850 /* UpperWear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E13411BC85240007E5850 /* UpperWear.swift */; };
+		290E13461BC85F6B007E5850 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E13441BC85F6B007E5850 /* HomeCollectionViewCell.swift */; };
+		290E13471BC85F6B007E5850 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290E13451BC85F6B007E5850 /* HomeCollectionViewCell.xib */; };
+		290E13491BC87E59007E5850 /* GetSuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E13481BC87E58007E5850 /* GetSuggestionViewController.swift */; };
+		29C5A0F91BC8FB3600735614 /* BookmarkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C5A0F81BC8FB3600735614 /* BookmarkListViewController.swift */; };
+		29C5A0FC1BC8FB6A00735614 /* BookmarkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C5A0FA1BC8FB6A00735614 /* BookmarkCollectionViewCell.swift */; };
+		29C5A0FD1BC8FB6A00735614 /* BookmarkCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C5A0FB1BC8FB6A00735614 /* BookmarkCollectionViewCell.xib */; };
+		29C5A0FF1BC935C400735614 /* ScreenShotImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C5A0FE1BC935C400735614 /* ScreenShotImageViewController.swift */; };
+		29C5A1151BC9859D00735614 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C5A1141BC9859D00735614 /* FBSDKCoreKit.framework */; };
+		29C5A1171BC985A500735614 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C5A1161BC985A500735614 /* FBSDKLoginKit.framework */; };
+		29C5A1191BC985AC00735614 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C5A1181BC985AC00735614 /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		290E132B1BC84C5E007E5850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290E130A1BC84C5E007E5850 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290E13111BC84C5E007E5850;
+			remoteInfo = SuperWardrobe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		290E13121BC84C5E007E5850 /* SuperWardrobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperWardrobe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		290E13161BC84C5E007E5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290E13171BC84C5E007E5850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		290E131A1BC84C5E007E5850 /* SuperWardrobe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperWardrobe.xcdatamodel; sourceTree = "<group>"; };
+		290E131C1BC84C5E007E5850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		290E131F1BC84C5E007E5850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		290E13211BC84C5E007E5850 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		290E13241BC84C5E007E5850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		290E132A1BC84C5E007E5850 /* SuperWardrobeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperWardrobeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		290E132F1BC84C5E007E5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290E13301BC84C5E007E5850 /* SuperWardrobeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperWardrobeTests.swift; sourceTree = "<group>"; };
+		290E133B1BC84D63007E5850 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		290E133D1BC8523F007E5850 /* LowerWear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowerWear.swift; sourceTree = "<group>"; };
+		290E133F1BC85240007E5850 /* Bookmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		290E13411BC85240007E5850 /* UpperWear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpperWear.swift; sourceTree = "<group>"; };
+		290E13441BC85F6B007E5850 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		290E13451BC85F6B007E5850 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		290E13481BC87E58007E5850 /* GetSuggestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSuggestionViewController.swift; sourceTree = "<group>"; };
+		29C5A0F81BC8FB3600735614 /* BookmarkListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkListViewController.swift; sourceTree = "<group>"; };
+		29C5A0FA1BC8FB6A00735614 /* BookmarkCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkCollectionViewCell.swift; sourceTree = "<group>"; };
+		29C5A0FB1BC8FB6A00735614 /* BookmarkCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookmarkCollectionViewCell.xib; sourceTree = "<group>"; };
+		29C5A0FE1BC935C400735614 /* ScreenShotImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenShotImageViewController.swift; sourceTree = "<group>"; };
+		29C5A1031BC946AF00735614 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		29C5A1141BC9859D00735614 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		29C5A1161BC985A500735614 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		29C5A1181BC985AC00735614 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		290E130F1BC84C5E007E5850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C5A1171BC985A500735614 /* FBSDKLoginKit.framework in Frameworks */,
+				29C5A1151BC9859D00735614 /* FBSDKCoreKit.framework in Frameworks */,
+				29C5A1191BC985AC00735614 /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E13271BC84C5E007E5850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290E13091BC84C5E007E5850 = {
+			isa = PBXGroup;
+			children = (
+				290E13141BC84C5E007E5850 /* SuperWardrobe */,
+				290E132D1BC84C5E007E5850 /* SuperWardrobeTests */,
+				290E13131BC84C5E007E5850 /* Products */,
+				29C5A1001BC9453200735614 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		290E13131BC84C5E007E5850 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				290E13121BC84C5E007E5850 /* SuperWardrobe.app */,
+				290E132A1BC84C5E007E5850 /* SuperWardrobeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		290E13141BC84C5E007E5850 /* SuperWardrobe */ = {
+			isa = PBXGroup;
+			children = (
+				290E13171BC84C5E007E5850 /* AppDelegate.swift */,
+				290E133A1BC84CB1007E5850 /* View Controllers */,
+				290E13431BC85F38007E5850 /* ViewCells */,
+				290E131E1BC84C5E007E5850 /* Main.storyboard */,
+				290E13211BC84C5E007E5850 /* Images.xcassets */,
+				290E13231BC84C5E007E5850 /* LaunchScreen.xib */,
+				290E13191BC84C5E007E5850 /* SuperWardrobe.xcdatamodeld */,
+				290E13411BC85240007E5850 /* UpperWear.swift */,
+				290E133F1BC85240007E5850 /* Bookmark.swift */,
+				290E133D1BC8523F007E5850 /* LowerWear.swift */,
+				290E13151BC84C5E007E5850 /* Supporting Files */,
+			);
+			path = SuperWardrobe;
+			sourceTree = "<group>";
+		};
+		290E13151BC84C5E007E5850 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				290E13161BC84C5E007E5850 /* Info.plist */,
+				29C5A1031BC946AF00735614 /* BridgingHeader.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		290E132D1BC84C5E007E5850 /* SuperWardrobeTests */ = {
+			isa = PBXGroup;
+			children = (
+				290E13301BC84C5E007E5850 /* SuperWardrobeTests.swift */,
+				290E132E1BC84C5E007E5850 /* Supporting Files */,
+			);
+			path = SuperWardrobeTests;
+			sourceTree = "<group>";
+		};
+		290E132E1BC84C5E007E5850 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				290E132F1BC84C5E007E5850 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		290E133A1BC84CB1007E5850 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				290E131C1BC84C5E007E5850 /* ViewController.swift */,
+				290E133B1BC84D63007E5850 /* HomeViewController.swift */,
+				290E13481BC87E58007E5850 /* GetSuggestionViewController.swift */,
+				29C5A0F81BC8FB3600735614 /* BookmarkListViewController.swift */,
+				29C5A0FE1BC935C400735614 /* ScreenShotImageViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		290E13431BC85F38007E5850 /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				290E13441BC85F6B007E5850 /* HomeCollectionViewCell.swift */,
+				290E13451BC85F6B007E5850 /* HomeCollectionViewCell.xib */,
+				29C5A0FA1BC8FB6A00735614 /* BookmarkCollectionViewCell.swift */,
+				29C5A0FB1BC8FB6A00735614 /* BookmarkCollectionViewCell.xib */,
+			);
+			name = ViewCells;
+			sourceTree = "<group>";
+		};
+		29C5A1001BC9453200735614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29C5A1181BC985AC00735614 /* FBSDKShareKit.framework */,
+				29C5A1161BC985A500735614 /* FBSDKLoginKit.framework */,
+				29C5A1141BC9859D00735614 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
+			path = SuperWardrobe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		290E13111BC84C5E007E5850 /* SuperWardrobe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290E13341BC84C5E007E5850 /* Build configuration list for PBXNativeTarget "SuperWardrobe" */;
+			buildPhases = (
+				290E130E1BC84C5E007E5850 /* Sources */,
+				290E130F1BC84C5E007E5850 /* Frameworks */,
+				290E13101BC84C5E007E5850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperWardrobe;
+			productName = SuperWardrobe;
+			productReference = 290E13121BC84C5E007E5850 /* SuperWardrobe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		290E13291BC84C5E007E5850 /* SuperWardrobeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290E13371BC84C5E007E5850 /* Build configuration list for PBXNativeTarget "SuperWardrobeTests" */;
+			buildPhases = (
+				290E13261BC84C5E007E5850 /* Sources */,
+				290E13271BC84C5E007E5850 /* Frameworks */,
+				290E13281BC84C5E007E5850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290E132C1BC84C5E007E5850 /* PBXTargetDependency */,
+			);
+			name = SuperWardrobeTests;
+			productName = SuperWardrobeTests;
+			productReference = 290E132A1BC84C5E007E5850 /* SuperWardrobeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		290E130A1BC84C5E007E5850 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kartikay bali";
+				TargetAttributes = {
+					290E13111BC84C5E007E5850 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					290E13291BC84C5E007E5850 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 290E13111BC84C5E007E5850;
+					};
+				};
+			};
+			buildConfigurationList = 290E130D1BC84C5E007E5850 /* Build configuration list for PBXProject "SuperWardrobe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 290E13091BC84C5E007E5850;
+			productRefGroup = 290E13131BC84C5E007E5850 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				290E13111BC84C5E007E5850 /* SuperWardrobe */,
+				290E13291BC84C5E007E5850 /* SuperWardrobeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		290E13101BC84C5E007E5850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E13201BC84C5E007E5850 /* Main.storyboard in Resources */,
+				290E13251BC84C5E007E5850 /* LaunchScreen.xib in Resources */,
+				29C5A0FD1BC8FB6A00735614 /* BookmarkCollectionViewCell.xib in Resources */,
+				290E13221BC84C5E007E5850 /* Images.xcassets in Resources */,
+				290E13471BC85F6B007E5850 /* HomeCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E13281BC84C5E007E5850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290E130E1BC84C5E007E5850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E133E1BC8523F007E5850 /* LowerWear.swift in Sources */,
+				290E131D1BC84C5E007E5850 /* ViewController.swift in Sources */,
+				29C5A0FF1BC935C400735614 /* ScreenShotImageViewController.swift in Sources */,
+				290E13181BC84C5E007E5850 /* AppDelegate.swift in Sources */,
+				290E131B1BC84C5E007E5850 /* SuperWardrobe.xcdatamodeld in Sources */,
+				290E133C1BC84D63007E5850 /* HomeViewController.swift in Sources */,
+				290E13491BC87E59007E5850 /* GetSuggestionViewController.swift in Sources */,
+				290E13421BC85240007E5850 /* UpperWear.swift in Sources */,
+				290E13401BC85240007E5850 /* Bookmark.swift in Sources */,
+				29C5A0F91BC8FB3600735614 /* BookmarkListViewController.swift in Sources */,
+				290E13461BC85F6B007E5850 /* HomeCollectionViewCell.swift in Sources */,
+				29C5A0FC1BC8FB6A00735614 /* BookmarkCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E13261BC84C5E007E5850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E13311BC84C5E007E5850 /* SuperWardrobeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		290E132C1BC84C5E007E5850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290E13111BC84C5E007E5850 /* SuperWardrobe */;
+			targetProxy = 290E132B1BC84C5E007E5850 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		290E131E1BC84C5E007E5850 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290E131F1BC84C5E007E5850 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		290E13231BC84C5E007E5850 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290E13241BC84C5E007E5850 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		290E13321BC84C5E007E5850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		290E13331BC84C5E007E5850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		290E13351BC84C5E007E5850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/bali/Downloads/FacebookSDKs-iOS-20151007",
+					"/Users/bali/Downloads/FacebookSDKs-iOS-20150813",
+				);
+				INFOPLIST_FILE = SuperWardrobe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/bali/Downloads/FacebookSDKs-iOS-20151007/FBSDKCoreKit.framework",
+					"/Users/bali/Downloads/FacebookSDKs-iOS-20151007/FBSDKLoginKit.framework",
+				);
+				PRODUCT_MODULE_NAME = SuperWardrobe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SuperWardrobe/BridgingHeader.h;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		290E13361BC84C5E007E5850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/bali/Downloads/FacebookSDKs-iOS-20151007",
+					"/Users/bali/Downloads/FacebookSDKs-iOS-20150813",
+				);
+				INFOPLIST_FILE = SuperWardrobe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/bali/Downloads/FacebookSDKs-iOS-20151007/FBSDKCoreKit.framework",
+					"/Users/bali/Downloads/FacebookSDKs-iOS-20151007/FBSDKLoginKit.framework",
+				);
+				PRODUCT_MODULE_NAME = SuperWardrobe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SuperWardrobe/BridgingHeader.h;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		290E13381BC84C5E007E5850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SuperWardrobeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperWardrobe.app/SuperWardrobe";
+			};
+			name = Debug;
+		};
+		290E13391BC84C5E007E5850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SuperWardrobeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperWardrobe.app/SuperWardrobe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290E130D1BC84C5E007E5850 /* Build configuration list for PBXProject "SuperWardrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E13321BC84C5E007E5850 /* Debug */,
+				290E13331BC84C5E007E5850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290E13341BC84C5E007E5850 /* Build configuration list for PBXNativeTarget "SuperWardrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E13351BC84C5E007E5850 /* Debug */,
+				290E13361BC84C5E007E5850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290E13371BC84C5E007E5850 /* Build configuration list for PBXNativeTarget "SuperWardrobeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E13381BC84C5E007E5850 /* Debug */,
+				290E13391BC84C5E007E5850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		290E13191BC84C5E007E5850 /* SuperWardrobe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				290E131A1BC84C5E007E5850 /* SuperWardrobe.xcdatamodel */,
+			);
+			currentVersion = 290E131A1BC84C5E007E5850 /* SuperWardrobe.xcdatamodel */;
+			path = SuperWardrobe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 290E130A1BC84C5E007E5850 /* Project object */;
+}

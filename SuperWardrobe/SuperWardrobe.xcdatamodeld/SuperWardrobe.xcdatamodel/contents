@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Bookmark" representedClassName="Bookmark" syncable="YES">
+        <attribute name="recordID" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="lowerWear" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LowerWear" inverseName="bookmark" inverseEntity="LowerWear" syncable="YES"/>
+        <relationship name="upperWear" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UpperWear" inverseName="bookmark" inverseEntity="UpperWear" syncable="YES"/>
+    </entity>
+    <entity name="LowerWear" representedClassName="LowerWear" syncable="YES">
+        <attribute name="image" attributeType="Binary" syncable="YES"/>
+        <attribute name="recordID" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" regularExpressionString="(pant)|(jeans)" syncable="YES"/>
+        <relationship name="bookmark" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Bookmark" inverseName="lowerWear" inverseEntity="Bookmark" syncable="YES"/>
+    </entity>
+    <entity name="UpperWear" representedClassName="UpperWear" syncable="YES">
+        <attribute name="image" attributeType="Binary" syncable="YES"/>
+        <attribute name="recordID" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" regularExpressionString="(shirt)|(tshirt)" syncable="YES"/>
+        <relationship name="bookmark" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Bookmark" inverseName="upperWear" inverseEntity="Bookmark" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="UpperWear" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="LowerWear" positionX="-54" positionY="18" width="128" height="105"/>
+        <element name="Bookmark" positionX="-36" positionY="45" width="128" height="90"/>
+    </elements>
+</model>
